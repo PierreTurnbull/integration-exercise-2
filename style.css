@@ -1,3 +1,30 @@
+/**********/
+/* HEADER */
+/**********/
+
+
+.header
+{}
+
+.header_inside
+{}
+
+.header_items
+{}
+
+.logo_img
+{}
+
+.menu_img
+{}
+
+.main_title
+{}
+
+.hashtag_title
+{}
+
+
 /*************/
 /* SECTION 1 */
 /*************/
@@ -9,7 +36,22 @@
 .section_1_inside
 {}
 
-.logo_link
+.human_shape
+{}
+
+.personal_presentation
+{}
+
+.personal_presentation_title
+{}
+
+.personal_presentation_text
+{}
+
+.hire_me_link
+{}
+
+.hire_me_text
 {}
 
 
@@ -24,6 +66,27 @@
 .section_2_inside
 {}
 
+.working_process_title
+{}
+
+.working_process_subtitle
+{}
+
+.work_article_list
+{}
+
+.work_article
+{}
+
+.work_link
+{}
+
+.work_img
+{}
+
+.work_title
+{}
+
 
 /*************/
 /* SECTION 3 */
@@ -36,9 +99,33 @@
 .section_3_inside
 {}
 
+.work_experience
+{}
+
+.work_experience_title
+{}
+
+.education
+{}
+
+.education_title
+{}
+
+.experience_article
+{}
+
+.experience_name
+{}
+
+.experience_date
+{}
+
+.experience_text
+{}
+
 
 /*************/
-/* SECTION 4 */
+/* SECTION 4 */ /* GRID LAYOUT? */
 /*************/
 
 
@@ -46,6 +133,21 @@
 {}
 
 .section_4_inside
+{}
+
+.latest_works_title
+{}
+
+.latest_works_subtitle
+{}
+
+.latest_works_list
+{}
+
+.latest_works_item
+{}
+
+.latest_works_item_link
 {}
 
 
@@ -60,6 +162,21 @@
 .section_5_inside
 {}
 
+.citation_img
+{}
+
+.citation
+{}
+
+.signature
+{}
+
+.citation_author
+{}
+
+.citation_author_job
+{}
+
 
 /*************/
 /* SECTION 6 */
@@ -72,16 +189,49 @@
 .section_6_inside
 {}
 
-
-/*************/
-/* SECTION 7 */
-/*************/
-
-
-.section_7
+.contact_message
 {}
 
-.section_7_inside
+.contact_message_title
+{}
+
+.contact_message_form
+{}
+
+.input_name
+{}
+
+.input_email
+{}
+
+.input_subect
+{}
+
+.input_message
+{}
+
+.input_submit
+{}
+
+.contact_address
+{}
+
+.contact_address_title
+{}
+
+.contact_phone
+{}
+
+.contact_phone_title
+{}
+
+.contact_web
+{}
+
+.contact_web_title
+{}
+
+.contact_text
 {}
 
 
@@ -94,4 +244,19 @@
 {}
 
 .footer_inside
+{}
+
+.social_list
+{}
+
+.social_element
+{}
+
+.social_element_link
+{}
+
+.social_element_img
+{}
+
+.copyright
 {}
