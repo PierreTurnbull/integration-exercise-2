@@ -75,29 +75,63 @@
 /*************/
 
 
-.section_1
+.section1
 {}
 
-.section_1_inside
-{}
-
-.human_shape
-{}
+.section1_inside
+{
+  background-image: url("img/002_section1/shape.png");
+  background-repeat: no-repeat;
+  background-position: 18.1% 100%;
+  height: 702px;
+  display: flex;
+}
 
 .personal_presentation
-{}
+{
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 0 0 43.75%;
+}
 
 .personal_presentation_title
-{}
+{
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.702);
+  font-weight: bold;
+  line-height: 1.556;
+  margin: 165px 0 31px 14px;
+}
 
 .personal_presentation_text
-{}
+{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.702);
+  line-height: 1.751;
+  margin: 24px 0 0 14px;
+  width: 71.8%;
+}
 
 .hire_me_link
-{}
+{
+  display: block;
+  background-color: #ff2b4a;
+  width: 202px;
+  height: 46px;
+  overflow: hidden;
+  margin: 62px 0 0 14px;
+}
 
 .hire_me_text
-{}
+{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.751;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
 
 
 /*************/
@@ -105,10 +139,10 @@
 /*************/
 
 
-.section_2
+.section2
 {}
 
-.section_2_inside
+.section2_inside
 {}
 
 .working_process_title
@@ -138,10 +172,10 @@
 /*************/
 
 
-.section_3
+.section3
 {}
 
-.section_3_inside
+.section3_inside
 {}
 
 .work_experience
@@ -174,10 +208,10 @@
 /*************/
 
 
-.section_4
+.section4
 {}
 
-.section_4_inside
+.section4_inside
 {}
 
 .latest_works_title
@@ -201,10 +235,10 @@
 /*************/
 
 
-.section_5
+.section5
 {}
 
-.section_5_inside
+.section5_inside
 {}
 
 .citation_img
@@ -228,10 +262,10 @@
 /*************/
 
 
-.section_6
+.section6
 {}
 
-.section_6_inside
+.section6_inside
 {}
 
 .contact_message
