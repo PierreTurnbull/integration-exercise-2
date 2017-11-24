@@ -276,16 +276,39 @@
 {}
 
 .section3_inside
-{}
+{
+  height: 793px;
+  background-color: black;
+  background-image: url("img/004_section3/section3_bg_1920.png");
+  background-size: 100% 793px;
+  overflow: hidden;
+}
+
+.work_container
+{
+  width: 1171px;
+  height: 545px;
+  margin: 124px auto;
+}
 
 .work_experience
-{}
+{
+  background-image: -moz-linear-gradient( 45deg, rgb(158,53,105) 0%, rgb(93,35,96) 100%);
+  background-image: -webkit-linear-gradient( 45deg, rgb(158,53,105) 0%, rgb(93,35,96) 100%);
+  background-image: -ms-linear-gradient( 45deg, rgb(158,53,105) 0%, rgb(93,35,96) 100%);
+  opacity: 0.302;
+}
 
 .work_experience_title
 {}
 
 .education
-{}
+{
+  background-image: -moz-linear-gradient( 45deg, rgb(158,53,105) 0%, rgb(93,35,96) 100%);
+  background-image: -webkit-linear-gradient( 45deg, rgb(158,53,105) 0%, rgb(93,35,96) 100%);
+  background-image: -ms-linear-gradient( 45deg, rgb(158,53,105) 0%, rgb(93,35,96) 100%);
+  opacity: 0.302;
+}
 
 .education_title
 {}
