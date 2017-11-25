@@ -369,6 +369,7 @@
 .section4_inside
 {
   height: 948px;
+  overflow: hidden;
 }
 
 .latest_works_title
@@ -379,7 +380,7 @@
   font-weight: bold;
   line-height: 0.7;
   text-align: center;
-  margin: 115px 0 0 0;
+  margin: 125px 0 0 0;
 }
 
 .latest_works_subtitle
@@ -458,7 +459,10 @@
 {}
 
 .section5_inside
-{}
+{
+  height: 702px;
+  background-color: #64cbc0;
+}
 
 .citation_img
 {}
