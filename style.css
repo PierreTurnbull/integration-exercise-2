@@ -1,3 +1,14 @@
+/***********/
+/* GENERAL */
+/***********/
+
+
+*
+{
+  letter-spacing: 0.01em;
+}
+
+
 /*************/
 /* FONT FACE */
 /*************/
@@ -40,7 +51,7 @@
 .header
 {
   background-color: #2b0b2d;
-  background-image: url("img/001_header/header_bg_1920.png");
+  background-image: url("img/gradient_bg_1920.png");
   background-size: 100% 100vh;
 }
 
@@ -94,6 +105,7 @@
   text-align: center;
   white-space: nowrap;
   margin-left: -1px;
+  padding: 12px 0 10px 0;
 }
 
 .hashtag_title
@@ -269,6 +281,7 @@
   text-transform: uppercase;
   line-height: 1.751;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 
@@ -280,7 +293,7 @@
 .section3
 {
   background-color: black;
-  background-image: url("img/004_section3/section3_bg_1920.png");
+  background-image: url("img/gradient_bg_1920.png");
   background-size: 100% 793px;
 }
 
@@ -303,7 +316,7 @@
 
 .experience_block
 {
-  background-image: url("img/004_section3/work_bg.png");
+  background-image: url("img/block_bg.png");
   background-size: cover;
 }
 
@@ -320,6 +333,7 @@
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.077;
+  letter-spacing: 0.03em;
 }
 
 .experience_article
@@ -528,55 +542,122 @@
 
 
 .section6
-{}
+{
+  background-color: #2b0b2d;
+  background-image: url("img/gradient_bg_1920.png");
+  background-size: 100% 979px;
+}
 
 .section6_inside
-{}
+{
+  height: 979px;
+  width: 1171px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
-.contact_message
-{}
+.contact_grid
+{
+  width: 100%;
+  height: 730px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 18px;
+  margin: 125px 0 0 0;
+}
 
-.contact_message_title
-{}
+.contact_form_container
+{
+  background-image: url("img/block_bg.png");
+  background-size: 578px 730px;
+  padding: 0 41px 0;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
 
-.contact_message_form
-{}
+.contact_title
+{
+  font-size: 26px;
+  font-family: "custom_raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.077;
+  margin: 60px 0 30px 0;
+  letter-spacing: 0.03em;
+}
 
-.input_name
-{}
+.contact_form
+{
+  margin: 60px 0 0 0;
+}
 
-.input_email
-{}
+.input
+{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  resize: none;
+  outline: none;
+  width: 492px;
+  height: 46px;
+  margin: 0 0 27px 0;
+}
 
-.input_subect
-{}
+.input[name="message"]
+{
+  width: 488px;
+  height: 199px;
+}
 
-.input_message
-{}
+.input::placeholder
+{
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.2;
+  padding: 0 0 0 18px;
+}
+
+.input[name="message"]::placeholder
+{
+  padding: 17px 0 0 21px;
+}
 
 .input_submit
-{}
+{
+  width: 202px;
+  height: 46px;
+  background-color: #ff2b4a;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.751;
+  text-align: center;
+  border: none;
+  margin: 6px 0 0 293px;
+}
 
-.contact_address
-{}
+.input_submit:hover
+{
+  cursor: pointer;
+}
 
-.contact_address_title
-{}
-
-.contact_phone
-{}
-
-.contact_phone_title
-{}
-
-.contact_web
-{}
-
-.contact_web_title
-{}
+.contact_block
+{
+  background-image: url("img/block_bg2.png");
+  background-size: 578px 232px;
+  padding: 0 41px 0 41px;
+}
 
 .contact_text
-{}
+{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.702);
+  line-height: 1.876;
+}
 
 
 /**********/
