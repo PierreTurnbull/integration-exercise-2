@@ -1,3 +1,14 @@
+/***********/
+/* GENERAL */
+/***********/
+
+
+*
+{
+  letter-spacing: 0.01em;
+}
+
+
 /*************/
 /* FONT FACE */
 /*************/
@@ -94,6 +105,7 @@
   text-align: center;
   white-space: nowrap;
   margin-left: -1px;
+  padding: 12px 0 10px 0;
 }
 
 .hashtag_title
@@ -269,6 +281,7 @@
   text-transform: uppercase;
   line-height: 1.751;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 
@@ -320,6 +333,7 @@
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.077;
+  letter-spacing: 0.03em;
 }
 
 .experience_article
@@ -537,7 +551,7 @@
 .section6_inside
 {
   height: 979px;
-  width: 1170px;
+  width: 1171px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -558,12 +572,12 @@
 {
   background-image: url("img/block_bg.png");
   background-size: 578px 730px;
-  padding: 60px 41px 0;
+  padding: 0 41px 0;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
 }
 
-.contact_form_title
+.contact_title
 {
   font-size: 26px;
   font-family: "custom_raleway";
@@ -571,6 +585,8 @@
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.077;
+  margin: 60px 0 30px 0;
+  letter-spacing: 0.03em;
 }
 
 .contact_form
@@ -585,14 +601,14 @@
   resize: none;
   outline: none;
   width: 492px;
-  height: 50px;
+  height: 46px;
   margin: 0 0 27px 0;
 }
 
 .input[name="message"]
 {
   width: 488px;
-  height: 205px;
+  height: 199px;
 }
 
 .input::placeholder
@@ -606,7 +622,7 @@
 
 .input[name="message"]::placeholder
 {
-  padding: 26px 0 0 21px;
+  padding: 17px 0 0 21px;
 }
 
 .input_submit
@@ -620,7 +636,7 @@
   line-height: 1.751;
   text-align: center;
   border: none;
-  margin: 9px 0 0 293px;
+  margin: 6px 0 0 293px;
 }
 
 .input_submit:hover
@@ -628,22 +644,11 @@
   cursor: pointer;
 }
 
-.contact_address
+.contact_block
 {
   background-image: url("img/block_bg2.png");
   background-size: 578px 232px;
-}
-
-.contact_phone
-{
-  background-image: url("img/block_bg2.png");
-  background-size: 578px 232px;
-}
-
-.contact_web
-{
-  background-image: url("img/block_bg2.png");
-  background-size: 578px 232px;
+  padding: 0 41px 0 41px;
 }
 
 .contact_text
