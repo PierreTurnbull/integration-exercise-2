@@ -38,14 +38,17 @@
 
 
 .header
-{}
+{
+  background-color: #2b0b2d;
+  background-image: url("img/001_header/header_bg_1920.png");
+  background-size: 100% 100vh;
+}
 
 .header_inside
 {
   height: 100vh;
-  background-color: #2b0b2d;
-  background-image: url("img/001_header/header_bg_1920.png");
-  background-size: 100% 100vh;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .header_items
@@ -56,7 +59,7 @@
 
 .logo_img_container
 {
-  margin: 91px 0 0 253px;
+  margin: 91px 0 0 0;
 }
 
 .logo_img
@@ -64,7 +67,7 @@
 
 .menu_img_container
 {
-  margin: 85px 214px 0 0;
+  margin: 85px 0 0 0;
 }
 
 .menu_img
@@ -174,13 +177,16 @@
 
 
 .section2
-{}
+{
+  background-color: #f6f6f6;
+}
 
 .section2_inside
 {
+  width: 1170px;
   height: 667px;
-  background-color: #f6f6f6;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .working_process_title
@@ -207,12 +213,11 @@
 
 .work_article_list
 {
-  width: 1170px;
   height: 270px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
-  margin: 57px auto 0;
+  margin: 57px 0 0 0;
 }
 
 .work_article:nth-child(1)
@@ -273,22 +278,24 @@
 
 
 .section3
-{}
+{
+  background-color: black;
+  background-image: url("img/004_section3/section3_bg_1920.png");
+  background-size: 100% 793px;
+}
 
 .section3_inside
 {
   height: 793px;
-  background-color: black;
-  background-image: url("img/004_section3/section3_bg_1920.png");
-  background-size: 100% 793px;
+  width: 1170px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .experience_container
 {
-  width: 1170px;
   height: 545px;
-  margin: 124px auto;
+  margin: 124px 0 0 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
@@ -370,6 +377,8 @@
 {
   height: 948px;
   overflow: hidden;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .latest_works_title
@@ -396,13 +405,12 @@
 
 .latest_works_list
 {
-  width: 1170px;
   height: 553px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 13px;
-  margin: 35px auto 0;
+  margin: 35px 0 0 0;
 }
 
 .latest_works_item:nth-child(1)
@@ -456,12 +464,14 @@
 
 
 .section5
-{}
+{
+  background-color: #64cbc0;
+}
 
 .section5_inside
 {
+  width: 1170px;
   height: 702px;
-  background-color: #64cbc0;
 }
 
 .citation_img
