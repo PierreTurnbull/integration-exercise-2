@@ -1,6 +1,3 @@
-@media (min-width: 1366px)
-{
-
 .section2
 {
   background-color: #f6f6f6;
@@ -8,39 +5,48 @@
 
 .section2_inside
 {
-  width: 1170px;
-  height: 667px;
+  width: 90%;
+  height: 100vh;
   overflow: hidden;
   margin: 0 auto;
 }
 
+@media (max-width: 360px) and (max-height: 639px)
+{
+  .section2_inside
+  {
+    height: 640px;
+  }
+}
+
 .working_process_title
 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: "custom_raleway";
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 0.7;
   text-align: center;
-  margin: 125px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .working_process_subtitle
 {
   font-size: 16px;
+  width: 250px;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.702);
   line-height: 1.751;
   text-align: center;
-  margin: 35px 0 0 0;
+  margin: 35px auto 0;
 }
 
 .work_article_list
 {
-  height: 270px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 15px;
   margin: 57px 0 0 0;
 }
@@ -68,7 +74,7 @@
 .work_link
 {
   width: 100%;
-  height: 270px;
+  height: 170px;
   overflow: hidden;
   display: block;
   position: relative;
@@ -83,7 +89,7 @@
 .work_title
 {
   position: absolute;
-  bottom: 80px;
+  top: 30px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -95,6 +101,4 @@
   line-height: 1.751;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
 }
