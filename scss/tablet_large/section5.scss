@@ -1,4 +1,4 @@
-@media (max-width: 719px)
+@media (min-width: 1366px)
 {
 
 .section5
@@ -8,23 +8,15 @@
 
 .section5_inside
 {
-  width: 90%;
-  height: 100vh;
-  overflow: hidden;
+  width: 1190px; /* +20px from 1170px needed for signature's anti-margin */
+  height: 702px;
   margin: 0 auto;
-}
-
-@media (max-width: 719px) and (max-height: 639px)
-{
-  .section5_inside
-  {
-    height: 640px;
-  }
+  overflow: hidden;
 }
 
 .citation_img_container
 {
-  margin: 50px 0 0 0;
+  margin: 138px 0 0 10px;
 }
 
 .citation_img
@@ -37,8 +29,7 @@
   font-family: "Roboto";
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.751;
-  margin: 44px 0 0 0;
-  width: 70%;
+  margin: 44px 0 0 10px;
 }
 
 .signature_img_container
@@ -56,7 +47,7 @@
   color: rgba(0, 0, 0, 0.702);
   font-weight: bold;
   line-height: 1.556;
-  margin: 24px 0 0 0;
+  margin: 24px 0 0 10px;
 }
 
 .citation_author_job
@@ -65,7 +56,7 @@
   font-family: "Roboto";
   color: rgba(0, 0, 0, 0.702);
   line-height: 2.001;
-  margin: 3px 0 0 0;
+  margin: 3px 0 0 10px;
 }
 
 }

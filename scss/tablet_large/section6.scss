@@ -1,16 +1,17 @@
-@media (max-width: 719px)
+@media (min-width: 1366px)
 {
 
 .section6
 {
   background-color: #2b0b2d;
   background-image: url("img/gradient_bg_1920.png");
-  background-size: 100% 1141px;
+  background-size: 100% 979px;
 }
 
 .section6_inside
 {
-  width: 90%;
+  height: 979px;
+  width: 1171px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -18,19 +19,22 @@
 .contact_grid
 {
   width: 100%;
+  height: 730px;
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 604px repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 18px;
-  margin: 5% 0 15px 0;
+  margin: 125px 0 0 0;
 }
 
 .contact_form_container
 {
   background-image: url("img/block_bg.png");
-  background-size: 100% 604px;
-  padding: 0 20px 0;
+  background-size: 578px 730px;
+  padding: 0 41px 0;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
 }
 
 .contact_title
@@ -40,30 +44,30 @@
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
   line-height: 1.077;
-  margin: 30px 0 10px 0;
+  margin: 60px 0 30px 0;
   letter-spacing: 0.03em;
 }
 
 .contact_form
-{}
+{
+  margin: 60px 0 0 0;
+}
 
 .input
 {
-  box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid rgba(255, 255, 255, 0.6);
   resize: none;
   outline: none;
-  width: 100%;
+  width: 492px;
   height: 46px;
-  margin: 0 auto 27px auto;
+  margin: 0 0 27px 0;
 }
 
 .input[name="message"]
 {
-  width: 100%;
+  width: 488px;
   height: 199px;
 }
 
@@ -92,8 +96,7 @@
   line-height: 1.751;
   text-align: center;
   border: none;
-  display: block;
-  margin: 0 auto;
+  margin: 6px 0 0 293px;
 }
 
 .input_submit:hover
@@ -104,17 +107,16 @@
 .contact_block
 {
   background-image: url("img/block_bg2.png");
-  background-size: 100% 232px;
-  height: 133px;
+  background-size: 578px 232px;
+  padding: 0 41px 0 41px;
 }
 
 .contact_text
 {
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Roboto";
   color: rgba(255, 255, 255, 0.702);
   line-height: 1.876;
-  text-align: center;
 }
 
 }

@@ -1,4 +1,4 @@
-@media (max-width: 719px)
+@media (min-width: 1366px)
 {
 
 .section4
@@ -6,9 +6,10 @@
 
 .section4_inside
 {
+  height: 948px;
   overflow: hidden;
-  width: 90%;
-  margin: 0 auto 5%;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .latest_works_title
@@ -19,7 +20,7 @@
   font-weight: bold;
   line-height: 0.7;
   text-align: center;
-  margin: 50px 0 0 0;
+  margin: 125px 0 0 0;
 }
 
 .latest_works_subtitle
@@ -33,16 +34,14 @@
   margin: 55px 0 0 0;
 }
 
-$grid_size: 135.5px;
-
 .latest_works_list
 {
-  width: $grid-size * 2 + 13px;
+  height: 553px;
   display: grid;
-  grid-template-columns: repeat(2, $grid-size);
-  grid-template-rows: repeat(4, $grid-size);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 13px;
-  margin: 50px auto 0 auto;
+  margin: 35px 0 0 0;
 }
 
 .latest_works_item:nth-child(1)
