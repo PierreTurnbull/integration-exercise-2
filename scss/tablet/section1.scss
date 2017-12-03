@@ -1,4 +1,4 @@
-@media (min-width: 1366px)
+@media (min-width: 768px) and (max-width: 1023px)
 {
 
 .section1
@@ -6,17 +6,19 @@
 
 .section1_inside
 {
+  min-height: 500px;
+  position: relative;
   background-image: url("img/002_section1/shape.png");
   background-repeat: no-repeat;
-  background-position: 18.1% 100%;
-  height: 702px;
+  background-position: 1% 100%;
+  background-size: 160px auto;
+  height: 540px;
   display: flex;
 }
 
 .personal_presentation
 {
-  background: rgba(255, 255, 255, 0.5);
-  margin: 0 0 0 43.8%;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .personal_presentation_title
@@ -26,7 +28,7 @@
   color: rgba(0, 0, 0, 0.702);
   font-weight: bold;
   line-height: 1.556;
-  margin: 165px 0 31px 14px;
+  margin: 20px 0 0 50px;
 }
 
 .personal_presentation_text
@@ -35,18 +37,22 @@
   font-family: "Roboto", Arial, sans-serif;
   color: rgba(0, 0, 0, 0.702);
   line-height: 1.751;
-  margin: 24px 0 0 14px;
+  margin: 24px 0 0 50px;
   width: 71.8%;
 }
 
 .hire_me_link
 {
+  position: absolute;
   display: block;
   background-color: #ff2b4a;
-  width: 202px;
+  width: 40%;
   height: 46px;
   overflow: hidden;
-  margin: 62px 0 0 14px;
+  right: 0;
+  left: 0;
+  margin-left: 50%;
+  bottom: 75px;
 }
 
 .hire_me_text

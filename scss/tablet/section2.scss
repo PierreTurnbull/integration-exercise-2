@@ -1,4 +1,4 @@
-@media (min-width: 1366px)
+@media (min-width: 768px) and (max-width: 1023px)
 {
 
 .section2
@@ -8,42 +8,48 @@
 
 .section2_inside
 {
-  width: 1170px;
-  height: 667px;
+  width: 90%;
   overflow: hidden;
   margin: 0 auto;
+  padding: 0 0 4.5% 0;
 }
 
 .working_process_title
 {
-  font-size: 40px;
+  height: 40px;
+  font-size: 29px;
   font-family: "custom_raleway";
   color: rgb(0, 0, 0);
   font-weight: bold;
-  line-height: 0.7;
+  line-height: 1;
   text-align: center;
-  margin: 125px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .working_process_subtitle
 {
   font-size: 16px;
+  width: 250px;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.702);
   line-height: 1.751;
   text-align: center;
-  margin: 35px 0 0 0;
+  margin: 35px auto 0;
 }
 
 .work_article_list
 {
-  height: 270px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 281.25px);
+  grid-template-rows: repeat(2, 270px);
+  width: 577.5px;
   grid-gap: 15px;
-  margin: 57px 0 0 0;
+  margin: 57px auto;
 }
+
+.work_article
+{}
 
 .work_article:nth-child(1)
 {
