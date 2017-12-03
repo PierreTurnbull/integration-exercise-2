@@ -1,4 +1,4 @@
-@media (max-width: 719px)
+@media (max-width: 767px)
 {
 
 .section1
@@ -6,21 +6,14 @@
 
 .section1_inside
 {
+  min-height: 500px;
   position: relative;
   background-image: url("img/002_section1/shape.png");
   background-repeat: no-repeat;
   background-position: 1% 100%;
   background-size: 160px auto;
-  height: 100vh;
+  height: 640px;
   display: flex;
-}
-
-@media (max-width: 719px) and (max-height: 639px)
-{
-  .section1_inside
-  {
-    height: 640px;
-  }
 }
 
 .personal_presentation
@@ -35,7 +28,7 @@
   color: rgba(0, 0, 0, 0.702);
   font-weight: bold;
   line-height: 1.556;
-  margin: 20px 0 14px 5%;
+  margin: 20px 0 0 5%;
 }
 
 .personal_presentation_text
