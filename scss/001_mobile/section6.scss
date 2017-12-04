@@ -1,17 +1,16 @@
-@media (min-width: 1366px)
+@media (max-width: 1365px)
 {
 
 .section6
 {
   background-color: #2b0b2d;
   background-image: url("img/gradient_bg_1920.png");
-  background-size: 100% 979px;
+  background-size: 100% 1141px;
 }
 
 .section6_inside
 {
-  height: 979px;
-  width: 1171px;
+  width: 90%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -19,22 +18,19 @@
 .contact_grid
 {
   width: 100%;
-  height: 730px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 100%;
+  grid-template-rows: 604px repeat(3, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 18px;
-  margin: 125px 0 0 0;
+  margin: 5% 0 15px 0;
 }
 
 .contact_form_container
 {
   background-image: url("img/block_bg.png");
-  background-size: 578px 730px;
-  padding: 0 41px 0;
-  grid-column: 1 / 2;
-  grid-row: 1 / 4;
+  background-size: 100% 604px;
+  padding: 0 20px 0;
 }
 
 .contact_title
@@ -44,30 +40,30 @@
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
   line-height: 1.077;
-  margin: 60px 0 30px 0;
+  margin: 30px 0 10px 0;
   letter-spacing: 0.03em;
 }
 
 .contact_form
-{
-  margin: 60px 0 0 0;
-}
+{}
 
 .input
 {
+  box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid rgba(255, 255, 255, 0.6);
   resize: none;
   outline: none;
-  width: 492px;
+  width: 100%;
   height: 46px;
-  margin: 0 0 27px 0;
+  margin: 0 auto 27px auto;
 }
 
 .input[name="message"]
 {
-  width: 488px;
+  width: 100%;
   height: 199px;
 }
 
@@ -96,7 +92,8 @@
   line-height: 1.751;
   text-align: center;
   border: none;
-  margin: 6px 0 0 293px;
+  display: block;
+  margin: 0 auto;
 }
 
 .input_submit:hover
@@ -107,16 +104,17 @@
 .contact_block
 {
   background-image: url("img/block_bg2.png");
-  background-size: 578px 232px;
-  padding: 0 41px 0 41px;
+  background-size: 100% 232px;
+  height: 133px;
 }
 
 .contact_text
 {
-  font-size: 16px;
+  font-size: 13px;
   font-family: "Roboto";
   color: rgba(255, 255, 255, 0.702);
   line-height: 1.876;
+  text-align: center;
 }
 
 }
