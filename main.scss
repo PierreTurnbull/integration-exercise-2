@@ -1,0 +1,48 @@
+@import "scss/reset.scss";
+@import "scss/font_face";
+@import "scss/general";
+
+/* 767 - */
+/* minimum supported width is 320px: http://www.designersinteractifs.org/statistiques-des-resolutions-decran-tous-terminaux-confondus/ */
+
+@import "scss/mobile/header";
+@import "scss/mobile/section1";
+@import "scss/mobile/section2";
+@import "scss/mobile/section3";
+@import "scss/mobile/section4";
+@import "scss/mobile/section5";
+@import "scss/mobile/section6";
+@import "scss/mobile/footer";
+
+/* 768 + */
+
+@import "scss/tablet/header";
+@import "scss/tablet/section1";
+@import "scss/tablet/section2";
+@import "scss/tablet/section3";
+@import "scss/tablet/section4";
+@import "scss/tablet/section5";
+@import "scss/tablet/section6";
+@import "scss/tablet/footer";
+
+/* 1024 + */
+
+@import "scss/tablet_large/header";
+@import "scss/tablet_large/section1";
+@import "scss/tablet_large/section2";
+@import "scss/tablet_large/section3";
+@import "scss/tablet_large/section4";
+@import "scss/tablet_large/section5";
+@import "scss/tablet_large/section6";
+@import "scss/tablet_large/footer";
+
+/* 1366 + */
+
+@import "scss/desktop/header";
+@import "scss/desktop/section1";
+@import "scss/desktop/section2";
+@import "scss/desktop/section3";
+@import "scss/desktop/section4";
+@import "scss/desktop/section5";
+@import "scss/desktop/section6";
+@import "scss/desktop/footer";

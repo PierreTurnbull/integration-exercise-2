@@ -1,0 +1,53 @@
+@media (min-width: 1024px) and (max-width: 1365px)
+{
+
+.footer
+{
+  height: 172px;
+  background-color: #222222;
+}
+
+.footer_inside
+{
+  overflow: hidden;
+}
+
+.social_list
+{
+  display: flex;
+  justify-content: center;
+  margin: 61px 0 0 0;
+}
+
+.social_element
+{}
+
+.social_element_link
+{
+  height: 14px;
+  display: block;
+}
+
+.social_element:not(:last-child)
+{
+  border-right: 1px solid #888888;
+}
+
+.social_element_img
+{
+  padding: 0 12px;
+  vertical-align: baseline;
+}
+
+.copyright
+{
+  font-size: 12px;
+  height: 20px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.502);
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin: 20px 0 0 0;
+}
+
+}
