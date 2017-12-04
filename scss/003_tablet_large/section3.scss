@@ -1,4 +1,4 @@
-@media (min-width: 1366px)
+@media (min-width: 1024px) and (max-width: 1365px)
 {
 
 .section3
@@ -10,16 +10,14 @@
 
 .section3_inside
 {
-  height: 793px;
-  width: 1170px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 7.17%;
 }
 
 .experience_container
 {
-  height: 545px;
-  margin: 124px 0 0 0;
+  height: 552px;
+  margin: 124px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;

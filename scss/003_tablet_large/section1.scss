@@ -1,4 +1,4 @@
-@media (min-width: 1366px)
+@media (min-width: 1024px)
 {
 
 .section1
@@ -9,6 +9,7 @@
   background-image: url("img/002_section1/shape.png");
   background-repeat: no-repeat;
   background-position: 18.1% 100%;
+  background-size: auto;
   height: 702px;
   display: flex;
 }

@@ -1,4 +1,4 @@
-@media (min-width: 1366px)
+@media (min-width: 1024px) and (max-width: 1365px)
 {
 
 .section2
@@ -8,10 +8,9 @@
 
 .section2_inside
 {
-  width: 1170px;
   height: 667px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 5%;
 }
 
 .working_process_title
@@ -38,11 +37,12 @@
 
 .work_article_list
 {
-  height: 270px;
+  height: 219px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 219px);
   grid-gap: 15px;
-  margin: 57px 0 0 0;
+  width: 921px;
+  margin: 57px auto 0;
 }
 
 .work_article:nth-child(1)
@@ -68,7 +68,7 @@
 .work_link
 {
   width: 100%;
-  height: 270px;
+  height: 219px;
   overflow: hidden;
   display: block;
   position: relative;
@@ -77,13 +77,13 @@
 .work_img
 {
   display: block;
-  margin: 87px auto 0;
+  margin: 57px auto 0;
 }
 
 .work_title
 {
   position: absolute;
-  bottom: 80px;
+  bottom: 60px;
   left: 0;
   right: 0;
   margin: 0 auto;
