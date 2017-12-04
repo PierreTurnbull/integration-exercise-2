@@ -1,4 +1,0 @@
-TODO:
-review desktop integration (mobile-first fucked it up)
-compact code, ex: only 1 footer.scss
-mobile, section 2: article's title under image instead of over it
